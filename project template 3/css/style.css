@@ -1,0 +1,283 @@
+.container {
+	width: 100vw; /* makes sure that the "container" div is stretched to the left and right edges of our web browser */
+	height: auto;
+	background: #FFF7F8;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
+
+@font-face {
+    font-family: 'bodoni-72';
+    src: url('../fonts/bodoni-72.ttf');
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+section {
+	position: relative; /* This is needed so that all of our CSS positionings will work within all of our sections */
+}
+
+/* Typography */
+
+/* For Headers/Titles */
+h1 {
+	font-size: 10em;
+	color: white;
+	position: absolute;
+	left: 52%;
+	top: 50%;
+	width: 1000px;
+	transform: translate(-50%,-65%);
+	font-family: 'bodoni-72';
+	font-weight: 400;
+}
+
+/* For Subheaders */
+h2 {
+	font-size: 6em;
+	font-family: 'bodoni-72';
+	font-weight: 400;
+	color: #6E7F4A;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%); 
+}
+
+h3 {
+	font-size: 6em;
+	font-family: 'bodoni-72';
+	font-weight: 400;
+	color: #6E7F4A;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+/* For Captions */
+h4 {
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	font-family: 'bodoni-72';
+	transform: translateX(-50%);
+	bottom: 40px;
+}
+
+h5 {
+	font-size: 3.5em;
+	font-family: 'bodoni-72';
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+/* Navigation Bar */
+.navigation {
+	width: 100vw;
+	height: 40px;
+	background: #FD8A97;
+	position: fixed;
+	z-index: 1;
+}
+
+ul {
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.3em;
+	font-family: 'bodoni-72';
+}
+
+li {
+	float: right; /* makes all of our links on the right side of the nav bar */
+	margin-left: 20px; /* gives 20px of spacing between each text link */
+	font-family: 'bodoni-72';
+}
+
+a {
+	color: white;
+	text-decoration: none; /* removes the underline and blue color of our text links */
+	font-family: 'bodoni-72';
+}
+
+li:last-child { /* last-child only targets the last item on our list, which is our home page link */
+	float: left; /* make sure that the home page link is on the left of the page, not the right */
+	margin-left: 0px;
+	font-family: 'bodoni-72';
+}
+
+
+/* Home Page CSS */
+
+.MET { /* this is the hero image area */
+	width: 100vw; /* makes sure that this section stretches to the entire width of the web browser */
+	height: 100vh; /* same idea but for the vertical height of the web browser */
+	background: pink;
+	background: url(../images/MetGala1.png);
+	background-size:cover;
+	overflow: hidden;
+}
+
+
+.one {
+	width: 1400px; /* this section has a fixed width. I recommend doing this for everything outside of the hero image section */
+	height: 100vh;
+	background: #FFF7F8;
+	margin: auto; /* makes sure that the section is centered on the page */
+}
+
+.image-container {
+  width: 200px;
+  height: 400px;
+  background-image: url(../images/floral.png);
+  background-size: 100%; /* Makes the image cover the container */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+.right {
+	background-image: url(../images/floral2.png);
+	transform: rotate(90);
+	left: 1150px;
+	top: 600px;
+}
+
+.two {
+	width: 1000px;
+	height: 40vh;
+	background: #FFF7F8;
+	margin: auto;
+}
+
+.smaller {
+	font-weight: 400;
+	position: relative;
+	top: 50px;
+	font-size: 2em;
+	text-align: center;
+	color: #6E7F4A;
+	font-family: Inter Tight;
+}
+
+.twotwo{
+	width: 1000px;
+	height: 50vh;
+	background: #FFF7F8;
+	margin: auto;
+}
+
+.tiny {
+	font-weight: 400;
+	position: relative;
+	top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #6E7F4A;
+	font-family: Inter Tight;
+	width: 400px;
+}
+
+.twotwotwo{
+	width: 1000px;
+	height: 40vh;
+	background: #FFF7F8;
+	margin: auto;
+}
+
+.teensie {
+	font-weight: 400;
+	position: relative;
+	top: 10px;
+	left: 550px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #6E7F4A;
+	font-family: Inter Tight;
+	width: 400px;
+}
+
+.three {
+	width: 100vw; /* makes sure that this section stretches to the entire width of the web browser */
+	height: 100vh; /* same idea but for the vertical height of the web browser */
+	background: pink;
+	background: url(../images/dresses.png);
+	background-size:cover;
+	overflow: hidden;
+}
+
+.pink-line {
+ position: relative;
+ top: 95%;
+ left: -14%;
+ transform: rotate(45deg);
+ width: 60%;
+ height: 50px;
+ background-color: #FFF7F8;
+ transform-origin: center;
+}
+
+.pink {
+	position: relative;
+  top: 0%;
+  left: 60%;
+  transform: rotate(45deg);
+  width: 60%;
+  height: 50px;
+  background-color: #FFF7F8;
+  transform-origin: center;
+}
+
+.text {
+	position: absolute;
+	top: 79%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.four {
+	width: 1000px;
+	height: 800px;
+	background: #FFF7F8;
+	margin: auto;
+}
+
+.missiontext {
+	font-weight: 400;
+	position: relative;
+	top: 260px;
+	font-size: 2em;
+	text-align: center;
+	color: #6E7F4A;
+	font-family: Inter Tight;
+	}
+
+
+.footer {
+	width: 100vw;
+	height: 100px;
+	background: pink;
+}

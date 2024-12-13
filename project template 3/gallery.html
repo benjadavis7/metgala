@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/gallery.css" />
+
+		<title>Title of Your Website</title>
+
+	</head>
+
+	<body>
+
+		<!-- It is almost always a good idea to have a large div wrap out the entire contents of your html body. In this example, that div is "container" This will make placement of other HTML elements easier. -->
+
+		<div class="container">
+
+			 <!-- Navigation Bar  -->
+
+			  <!-- In order to build our nav bar, use lists. <ul> is basically the container of the list and <li> is a single element in the list.
+
+			  To insert a link in the nav bar, simply put an anchor tag <a> inside a <li>.
+
+			  For the link's href, we use id's which is another CSS selector (ID uses "#" as opposed to a class's ".". This makes sure that clicking on a link will automatically sroll down to a specific section.
+
+			  Finally, notice how our HTML is divided used <section> instead of <div>.-->
+
+			<section class="navigation">
+				<ul>
+					<li><a href="#four">Info</a></li>
+					<li><a href="#three">Gallery</a></li>
+					<li><a href="index.html">MET</a></li>
+				</ul>
+			</section>
+
+			 <!-- Hero Image  -->
+			<section class="MET" id="MET">
+				<h1>Gallery</h1>
+				<h2>2024</h2>
+				<h4>Scroll Down</h4>
+
+			</section>
+
+			 <!-- First Section  -->
+			<section class="one" id="one">
+				<img class="tyla_one" src="images/tyla1.png" />
+				<img class="tyla_two" src="images/tyla2.png" />
+				<img class="tyla_three" src="images/tyla3.png" />
+				<p class="tyla_name">Tyla</p>
+				<p class="tyla_designer">Designer: Olivier Rousteing</p>
+
+				<!-- <div class='image-container'> </div>
+				<div class='image-container right'> </div> -->
+			</section>
+
+			 <!-- Second Section  -->
+			<section class="two" id="two">
+				<p class="smaller"> At its core, "Sleeping Beauties" is a celebration of fashion that withstands the passage of time. The theme draws inspiration from classic fairy tales like Sleeping Beauty, emphasizing the idea of garments, textiles, and styles that lie dormant, only to be revived and appreciated in a new light. It invites designers and attendees to explore how fashion can be both a relic of the past and a living, breathing art form that evolves and transforms with each reawakening.
+ 				</p>
+			</section>
+
+			<section class="twotwo" id="two">
+				<p class="tiny"> "Sleeping Beauties" is more than just a whimsical nod to fairy tales; it serves as a metaphor for the fashion world’s ongoing commitment to preservation, sustainability, and the celebration of timeless beauty. By highlighting the art of fashion conservation, the theme emphasizes the value of preserving the past while breathing new life into it, much like how Sleeping Beauty herself was awakened from her slumber.
+				</p>
+			</section>
+
+			<section class="twotwotwo" id="two">
+				<p class="teensie"> The theme also resonates with current discussions around sustainable fashion and the importance of valuing and reusing what already exists. In a world where the fashion industry is increasingly focusing on sustainability, "Sleeping Beauties" invites a reexamination of how old garments can inspire new creations, reducing waste and celebrating craftsmanship.
+				</p>
+			</section>
+
+			 <!-- Third Section  -->
+			<section class="three" id="three">
+				<img src="../images/gigi.png">
+        <div class="pink-line"></div>
+				 <div class="pink"></div>
+        <div class="text">Your Text Here</div>
+			</section>
+
+			 <!-- Fourth Section  -->
+			<section class="four" id="four">
+				<h3>Our Mission</h3>
+				<p class="missiontext"> The Met Gala is dedicated to celebrating the intersection of fashion, art, and culture by bringing together a diverse and dynamic community of creative minds. As an annual fundraising event for The Metropolitan Museum of Art's Costume Institute, the Gala aims to inspire, challenge, and elevate the world of fashion while honoring its profound impact on society. Through innovative themes, iconic style, and a commitment to the arts, the Met Gala seeks to spark conversations, foster creativity, and support the preservation and advancement of fashion as a vital form of artistic expression.
+				</p>
+			</section>
+
+			 <!-- Fifth Section  -->
+			<section class="footer" id="five">
+
+			</section>
+
+		</div>
+
+	</body>
+
+</html>
